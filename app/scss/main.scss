@@ -1,4 +1,19 @@
 // styles.scss
 .testing {
   width: percentage(5/7);
+  @media all and (max-width: 1000px) {
+    width:100%;
+  }
+}
+
+
+body{
+  background: silver;
+  display: flex;
+  box-sizing: border-box;
+  transition: transform 1s;
+
+  @media all and (max-width: 1000px) {
+    width:80%;
+  }
 }
