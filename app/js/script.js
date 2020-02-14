@@ -18,3 +18,6 @@ console.log(x + " " + y);  // '1 undefined'
 var y = 2;
 
 console.log(typeof(4234234));
+
+
+console.log('Десятичные '+(0.1 + 0.2).toFixed(3));
