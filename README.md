@@ -23,7 +23,7 @@
 <li>Добавление префиксов для боллее старых браузеров</li>
 <li>Сокращение стилей 
     <details>
-        <summary style="color:#ddd">Пример сокращения</summary>
+        <summary >Пример сокращения</summary>
         <img src="http://www.denyspopov.com/wp-content/uploads/2020/02/shorthand.jpeg" alt="shorthand"> 
     </details>
 </li>
