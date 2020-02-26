@@ -22,7 +22,7 @@
 <li>Минифицирование CSS</li>
 <li>Добавление префиксов для боллее старых браузеров</li>
 <li>Сокращение стилей 
-    <details>
+    <details style="color:#ddd">
         <summary>Пример сокращения</summary>
         <img src="http://www.denyspopov.com/wp-content/uploads/2020/02/shorthand.jpeg" alt="shorthand"> 
     </details>
