@@ -12,8 +12,21 @@ body{
   display: flex;
   box-sizing: border-box;
   transition: transform 1s;
+  .page-wrapper{
+    width: 100%;
+  }
 
   @media all and (max-width: 1000px) {
     width:80%;
   }
+}
+
+.section-one{
+  width: 1000px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: wheat;
 }

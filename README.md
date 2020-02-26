@@ -20,6 +20,14 @@
 <ul>
 <li>Компиляция SCSS в CSS</li>
 <li>Минифицирование CSS</li>
+<li>Добавление префиксов для боллее старых браузеров</li>
+<li>Сокращение стилей 
+    <details>
+        <summary>Пример сокращения</summary>
+        <img src="http://www.denyspopov.com/wp-content/uploads/2020/02/shorthand.jpeg" alt="shorthand"> 
+    </details>
+</li>
+
 <li>Минифицирование JS</li>
 <li>Обфусцирование JS</li>
 <li>Перезагрузка страницы после изменения исходных файлов (CSS, HTML, JS)</li>

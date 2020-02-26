@@ -1,9 +1,10 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const minifyCss = require('gulp-minify-css');
+const shorthand = require('gulp-shorthand');
 const browserSync = require('browser-sync');
 const sourcemaps = require('gulp-sourcemaps');
-// const autoprefixer = require('gulp-autoprefixer');
+const autoprefixer = require('gulp-autoprefixer');
 const mmq = require('gulp-merge-media-queries');
 const minify = require('gulp-minify');
 const obfuscate  = require('gulp-obfuscate');
@@ -22,13 +23,13 @@ const paths = {
 gulp.task('sass', function () {
     return gulp.src(paths.css)
         .pipe(sourcemaps.init())
-        .pipe(autoprefixer({
-            cascade: false
-        }))
+        .pipe(shorthand())
         .pipe(sass().on('error', sass.logError))
         .pipe(mmq())
         .pipe(minifyCss())
-        .pipe(sourcemaps.write())
+        .pipe(autoprefixer({
+            cascade: false
+        }))        .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css'))
         .pipe(reload({stream:true}));
 });
