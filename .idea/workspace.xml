@@ -24,7 +24,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48f59063-bbdb-44be-a683-37e651fd7f6a" name="Default Changelist" comment="add .idea in gitignore" />
+    <list default="true" id="48f59063-bbdb-44be-a683-37e651fd7f6a" name="Default Changelist" comment="add .idea in gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +73,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../limefx.devshell.site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../umarkets.maximarkets.site" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp7\htdocs\learnGulp\app\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp7\htdocs\learnGulp\app\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,7 +118,9 @@
       <workItem from="1581683493345" duration="149000" />
       <workItem from="1581683679670" duration="27000" />
       <workItem from="1581683728008" duration="32000" />
-      <workItem from="1582728326903" duration="2667000" />
+      <workItem from="1582728326903" duration="2957000" />
+      <workItem from="1582790140383" duration="6031000" />
+      <workItem from="1582877840809" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="required gulp sass">
       <created>1581508988098</created>
@@ -147,7 +171,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582730544692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edit readme">
+      <created>1582731234388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731234388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="edit readme">
+      <created>1582731234946</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731234946</updated>
+    </task>
+    <task id="LOCAL-00010" summary="edit readme.">
+      <created>1582731304742</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731304742</updated>
+    </task>
+    <task id="LOCAL-00011" summary="edit readme. delete style">
+      <created>1582731340074</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731340074</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +226,10 @@
     <MESSAGE value="edit README.md" />
     <MESSAGE value="add .idea in gitignore" />
     <MESSAGE value="add autoprefixer and shorthand" />
-    <option name="LAST_COMMIT_MESSAGE" value="add autoprefixer and shorthand" />
+    <MESSAGE value="edit readme" />
+    <MESSAGE value="edit readme." />
+    <MESSAGE value="edit readme. delete style" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit readme. delete style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1581690376977">

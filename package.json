@@ -4,7 +4,8 @@
   "description": "template gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -17,16 +18,21 @@
   },
   "homepage": "https://github.com/FrankyJo/gulpConfig#readme",
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
     "gulp-html": "^1.1.0",
+    "gulp-image": "^6.0.0",
     "gulp-merge-media-queries": "^0.2.1",
     "gulp-minify": "^3.1.0",
     "gulp-minify-css": "^1.2.4",
     "gulp-obfuscate": "^0.2.9",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
     "node-sass": "^4.13.1"
   },
   "browserslist": {
